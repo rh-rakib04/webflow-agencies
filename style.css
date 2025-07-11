@@ -26,9 +26,11 @@
 .banner {
   background-image: url(Assets/Hero-bg.png);
   border-color: white;
+  margin-top: 30px;
   margin-bottom: 10px;
   padding-top: 10px;
   max-height: 746px;
+  border-radius: 10px;
 }
 .nav {
   display: flex;
