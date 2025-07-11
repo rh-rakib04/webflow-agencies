@@ -2,3 +2,57 @@
 * {
   font-family: "Raleway", sans-serif;
 }
+/* banner section start */
+.banner {
+  background-image: url(Assets/Hero-bg.png);
+  max-width: 1140px;
+  max-height: 746px;
+  margin: 0px auto;
+  padding-top: 10px;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+nav strong {
+  font-size: 34px;
+  color: rgb(78, 71, 255);
+  font-weight: bolder;
+}
+h1 {
+  text-align: center;
+  font-size: 65px;
+  margin-top: 158px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 37px;
+}
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.main button {
+  margin-bottom: 200px;
+}
+/* All Button */
+.btn {
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  padding-left: 36px;
+  padding-right: 36px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: rgb(78, 71, 255);
+  border-radius: 10px;
+  border: none;
+}
+.btn:hover {
+  background-color: rgb(250, 234, 146);
+  color: black;
+  border-radius: 20px;
+  transition-duration: 0.4s;
+}
+/* banner section end */
