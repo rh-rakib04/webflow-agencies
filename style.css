@@ -39,7 +39,7 @@
 nav strong {
   font-size: 34px;
   color: rgb(78, 71, 255);
-  font-weight: bolder;
+  font-weight: 900;
   margin-right: 900px;
 }
 h1 {
@@ -164,5 +164,65 @@ button {
 .focus img {
   border-radius: 48px;
 }
-
 /* focus section end */
+/* newsletter section start */
+.newsletter {
+  display: flex;
+}
+.newsletter h2 {
+  font-size: 97px;
+  width: 50%;
+}
+.newsletter label {
+  font-size: 18px;
+  font-weight: medium;
+}
+.newsletter input {
+  width: 497px;
+  padding: 20px 32px;
+  background-color: #f6f6ff;
+  border: none;
+  border-radius: 10px;
+}
+.newsletter textarea {
+  width: 497px;
+  height: 135px;
+  padding: 20px 32px;
+  background-color: #f6f6ff;
+  border: none;
+  border-radius: 10px;
+}
+/* newsletter section end */
+/* footer section start */
+footer {
+  background-color: #e3e3fc;
+  border-radius: 10px;
+}
+.footer {
+  width: 531px;
+  padding-top: 104px;
+  padding-bottom: 104px;
+}
+.footer h2 {
+  font-size: 100px;
+  text-align: center;
+  font-weight: 900;
+  color: rgb(78, 71, 255);
+  margin-bottom: 10px;
+}
+.footer p {
+  text-align: center;
+  color: #8987a1;
+  margin-bottom: 20px;
+}
+nav ul {
+  display: flex;
+}
+nav li a {
+  text-decoration: none;
+  color: #8987a1;
+}
+nav li {
+  list-style: none;
+}
+/* footer section end */
