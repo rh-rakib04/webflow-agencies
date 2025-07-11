@@ -143,3 +143,26 @@ p {
   margin-right: 10px;
 }
 /* review section end */
+/* focus section start */
+.focus {
+  margin-top: 137px;
+  margin-bottom: 92px;
+  display: grid;
+  justify-content: center;
+  padding: 71px 150px;
+  background-color: #e3e3fc;
+  border-radius: 14px;
+}
+.focus h2 {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+.focus p,
+button {
+  margin-bottom: 20px;
+}
+.focus img {
+  border-radius: 48px;
+}
+
+/* focus section end */
